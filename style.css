@@ -4,14 +4,9 @@
 
 }
 .controls {
-    
-    /* Light grey background color */
     padding: 20px;
-    /* Add some padding inside the section */
     margin: 0 100px;
-    /* Add left and right margins */
     overflow: hidden;
-    /* Clear any floated elements within */
     border-radius: 20px;
     height: 8rem;
     transition: transform 0.4s;
@@ -22,14 +17,9 @@
     border-color: #2E2E2E;
 }
 .content-section {
-   
-    /* Light grey background color */
     padding: 20px;
-    /* Add some padding inside the section */
     margin: 0 100px;
-    /* Add left and right margins */
     overflow: hidden;
-    /* Clear any floated elements within */
     border-radius: 20px;
     transition: transform 0.4s;
     border: 2px solid #F0F0F0;
@@ -38,131 +28,82 @@
     transform: scale(1.05);
     border-color: #2E2E2E;
 }
-/* Style the content container */
 .content {
     display: flex;
-    /* Use flexbox to arrange content */
     align-items: center;
-    /* Vertically center content */
 }
-
-/* Style the text container */
 .text {
     flex: 1;
-    /* Grow to take available space */
     padding: 20px;
-    /* Add some padding to the text */
 }
-
-/* Style the image container */
 .image {
     flex: 1;
-    /* Grow to take available space */
     text-align: center;
-
-
-
 }
-
 .image img {
-
     height: 155px;
-
-
-
 }
-
-
 .about-section {
     display: none;
-     /* Light grey background color */
-     padding: 20px;
-     /* Add some padding inside the section */
-     margin: 0 100px;
-     /* Add left and right margins */
-     overflow: hidden;
-     /* Clear any floated elements within */
-     border-radius: 20px;
-     height: 12rem;
+    padding: 20px;
+    margin: 0 100px;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 12rem;
 }
-
 .contact-section {
     display: none;
     padding: 20px;
-     /* Add some padding inside the section */
-     margin: 0 100px;
-     /* Add left and right margins */
-     overflow: hidden;
-     /* Clear any floated elements within */
-     border-radius: 20px;
-     height: 12rem;
+    margin: 0 100px;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 12rem;
 }
-
-/* Default background color */
-
-/* Style for the microphone icon */
 #micButton {
     cursor: pointer;
     border-radius: 50%;
-    border: 3px solid #000; /* Initial border color */
+    border: 3px solid #000;
     transition: border-color 1s;
     width: 150px;
     height: 150px;
     transition: box-shadow 0.3s;
 }
-
 #micButton:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    
 }
-
 .mic-btn {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     transition: transform 0.3s;
-   
 }
-
 .mic-btn:hover {
     transform: scale(1.2);
 }
-
 .mic-section {
     text-align: center;
 }
-
 .con-one {
     text-align: center;
 }
 .listen{
     justify-content: center;
 }
-
 .con-two {
-    
     display: flex;
     justify-content: center;
 }
-/* CSS for the scrolling container */
 .scrolling-container {
-   
     overflow: hidden;
     position: relative;
 }
-
-/* CSS for the scrolling content */
 .scrolling-content {
     white-space: nowrap;
     animation: scroll 30s linear infinite;
 }
-
-/* Pause the animation on hover */
 .scrolling-container:hover .scrolling-content {
     animation-play-state: paused;
 }
-
-/* Keyframes for scrolling animation */
 @keyframes scroll {
     0% {
         transform: translateX(100%);
